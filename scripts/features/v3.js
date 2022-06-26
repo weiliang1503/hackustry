@@ -5,7 +5,7 @@ module.exports = (add) => {
         Vars.content.blocks().each(e => {
             if(!(e instanceof Reconstructor)) return;
             e.constructTime = 0;
-            e.consumes.items();
+            // e.consumes.items();
         });
     });
     

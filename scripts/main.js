@@ -3,7 +3,7 @@
     have fun trying to read it without dying
 */
 
-Vars.enableConsole = true;
+//Vars.enableConsole = true;
 
 if(Vars.headless){
     throw "no server support yet";
